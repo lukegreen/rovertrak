@@ -30,90 +30,64 @@
     <![endif]-->
 
 
-    <div class="blog-masthead">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <nav class="blog-nav">
-          <a class="blog-nav-item" href="#">Home</a>
-          <a class="blog-nav-item" href="http://lukegreen.net/Portfolio">Portfolio</a>
-          <a class="blog-nav-item" href="#">About</a>
-        </nav>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>RoverTrak: Project Summary</h1>
+        <p>RoverTrak is a highly accessible, educational mobile application intended to provide background and history for each of NASA’s three Martian rovers.
+</p>
+        <p><a class="btn btn-primary btn-lg" href="http://lukegreen.net/capstone-FINAL/#/" role="button">Visit live beta</a></p>
       </div>
     </div>
 
     <div class="container">
-
-      <div class="blog-header">
-        <h1 class="blog-title">RoverTrak: Project Summary</h1>
-        <p class="lead blog-description">Getting to know NASA's Martian rovers.</p>
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>The Project</h2>
+          <p>I designed RoverTrak as my capstone project for the Web Development Certificate program at Seattle University.  I wanted to </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
       </div>
 
-      <div id="main-image"><img src="images/curiosity-1.png" width="70%" height="70%"></div>
+      <hr>
 
-      <div class="row">
-
-        <div class="col-sm-8 blog-main">
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">The Project</h2>
-            <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
-
-            <p>RoverTrak is a highly accessible, educational mobile application intended to provide background and history for each of NASA’s three Martian rovers.
-            </p>
-          </div>
-
-          <div class="blog-post">
-            <h2 class="blog-post-title">My Role</h2>
-            <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
-
-            <ul>
-              <li>Develop project plan</li>
-              <li>Low and high-fidelity wireframes</li>
-              <li>Application bootstrapping</li>
-              <li>Usability testing</li>
-              <li>Iteration</li>
-            </ul>
-
-          </div><!-- /.blog-post -->
-
-          <nav>
-            <ul class="pager">
-              <li><a href="#">Previous</a></li>
-              <li><a href="#">Next</a></li>
-            </ul>
-          </nav>
-
-        </div><!-- /.blog-main -->
-
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-          <div class="sidebar-module sidebar-module-inset">
-            <h4>About</h4>
-            <p>RoverTrak is an educational mobile application intended to share the journey of NASA's three martian rovers: Spirit, Opportunity, and Curiosity.</p>
-          </div>
-          <div class="sidebar-module">
-            <h4>Sections</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">Project</a></li>
-              <li><a href="#">My Role</a></li>
-              <li><a href="#">App Structure</a></li>
-              <li><a href="#">Homescreen</a></li>
-              <li><a href="#">Views</a></li>
-              <li><a href="#">Identity Suite</a></li>
-              <li><a href="#">Research and Future Directions</a></li>
-            </ol>
-          </div>
-          <div class="sidebar-module">
-            <h4>Elsewhere</h4>
-            <ol class="list-unstyled">
-              <li><a href="#">GitHub</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
-            </ol>
-          </div>
-        </div><!-- /.blog-sidebar -->
-
-      </div><!-- /.row -->
-
-    </div><!-- /.container -->
+    </div> <!-- /container -->
 
       <div class="footer">
         <p><span class="glyphicon glyphicon-heart"></span> Luke Green 2016 | site powered by Yeoman, Bower, Grunt, and Bootstrap</p>
