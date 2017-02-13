@@ -15,7 +15,6 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #555;
   padding-top: 50px;
   padding-bottom: 20px;
 }
@@ -29,9 +28,21 @@ h6, .h6 {
   margin-top: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  color: #333;
+}
+
+#main-title, #main-blurb {
+  color: white;
+}
+
+#main-title {
+  font-size: 40pt;
+}
+
+#main-blurb {
+  width: 500px;
 }
 
 .jumbotron {
-  background-image: url("../images/curiosity-1.png");
+  background-image: url("../images/curiosity-eye.png");
+  background-size: cover;
 }
